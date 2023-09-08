@@ -1,0 +1,77 @@
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    input[type="text"] {
+        width: 70%;
+        padding: 10px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    button {
+        padding: 10px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        background-color: #f2f2f2;
+        padding: 10px;
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    li.completed {
+        text-decoration: line-through;
+        color: #888;
+    }
+
+    button.delete-button {
+        background-color: #dc3545;
+    }
+
+    button.delete-button:hover {
+        background-color: #c82333;
+    }
+
+    button.toggle-button {
+        background-color: #28a745;
+    }
+
+    button.toggle-button:hover {
+        background-color: #218838;
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    /* Estilos para las columnas de ID y Descripción */
+    .id-column {
+        width: 50px; /* Ancho de la columna de ID */
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .descripcion-column {
+        flex-grow: 1;
+    }
